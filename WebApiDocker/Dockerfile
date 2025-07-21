@@ -1,4 +1,4 @@
-    # Stage 1: Build the application
+    # Stage 1: Build the application...
     # Uses the .NET SDK image to compile and publish the application.
     FROM mcr.microsoft.com/dotnet/sdk:9.0 AS base
     WORKDIR /app
